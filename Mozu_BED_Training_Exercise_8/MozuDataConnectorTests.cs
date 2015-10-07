@@ -45,7 +45,7 @@ namespace Mozu_BED_Training_Exercise_8
              *     See this site for more info:
              *     http://developer.mozu.com/content/api/APIResources/platform/platform.tenants/platform.tenants.htm
              */
-            var tenant = tenantResource.GetTenantAsync(_apiContext.TenantId).Result;
+            var tenant = tenantResource.GetTenantAsync(_apiContext.TenantId).Result; ;
 
             //Add Your Code: 
             //Write Tenant name
